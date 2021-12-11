@@ -28,7 +28,7 @@ function play(values) {
     }
     if (card == "Q") {
       turn % 2 == 0 ? alert("I WIN!") : alert("YOU WIN");
-      break;
+      return;
     }
   }
 }
